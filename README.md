@@ -28,24 +28,25 @@
 ---
 
 ## 📂 Структура проєкту
-📁 System.Self/
-├── 📄 index.html
-├── 📄 habits.html
-├── 📄 todo.html
-├── 📄 expenses.html
-├── 📁 css/
+
+```
+System.Self/
+├── index.html
+├── habits.html
+├── todo.html
+├── expenses.html
+├── css/
 │   ├── todo.css
 │   ├── habits.css
 │   ├── expenses.css
-|   ├── schedule.js
-|   ├── global.js
-├── 📁 js/
+│   ├── schedule.js
+│   ├── global.js
+├── js/
 │   ├── main.js
 │   ├── todo.js
 │   ├── habits.js
 │   ├── expenses.js
-|   ├── calendar.js
-|   ├── page-init.js
-|   ├── storage.js
-
-
+│   ├── calendar.js
+│   ├── page-init.js
+│   ├── storage.js
+```
