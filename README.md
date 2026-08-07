@@ -1,35 +1,35 @@
 # 📔 Personal Diary
 
-**Personal Diary** — це персональний веб-додаток, що дозволяє ефективно організувати повсякденне життя. Він поєднує можливості особистого щоденника, трекера звичок, планувальника завдань та обліку витрат — все в одному зручному інтерфейсі.
+**Personal Diary** is a personal web application designed to help users organize their daily lives efficiently. It combines the functionality of a personal diary, habit tracker, task planner, and expense tracker in a single, user-friendly interface.
 
 ---
 
-## 🧩 Основні можливості
+## 🧩 Features
 
-| Модуль         | Опис                                                                 |
-|----------------|----------------------------------------------------------------------|
-| 📓 **Calendar**   | Календар з позначками про наявні завдання на день та можливістю додавання швидких записів.          |
-| ✅ **To-do**   | Список справ з можливістю додавання, редагування та видалення.      |
-| 📊 **Habits**  | Трекер звичок з візуалізацією прогресу.                             |
-| 💸 **Expenses**| Фінансовий трекер з можливістю автоматичної конвертації валют.      |
+| Module | Description |
+|--------|-------------|
+| 📅 **Calendar** | A calendar with daily task indicators and the ability to add quick notes. |
+| ✅ **To-do** | A task management system that allows users to create, edit, and delete tasks. |
+| 📊 **Habits** | A habit tracker with progress visualization to help users maintain daily routines. |
+| 💸 **Expenses** | An expense tracker with automatic currency conversion using real-time exchange rates. |
 
 ---
 
-## ⚙️ Технології
+## ⚙️ Technologies
 
-- **HTML** — семантична структура сторінок.
-- **CSS** — стилізація інтерфейсу.
-- **JavaScript (Vanilla)** — динамічна логіка і взаємодія з користувачем.
-- **LocalStorage** — збереження користувацьких даних у браузері.
-- **[ExchangeRate-API](https://www.exchangerate-api.com/)** — інтеграція для автоматичної конвертації валют у модулі обліку витрат:
-  - Отримання реального курсу валют.
-  - Динамічна конвертація витрат між різними валютами.
-  
+- **HTML** — Semantic page structure.
+- **CSS** — User interface styling.
+- **JavaScript (Vanilla)** — Client-side logic and interactivity.
+- **LocalStorage** — Browser-based data persistence.
+- **ExchangeRate-API** — Integration for automatic currency conversion in the expense tracker:
+  - Retrieves real-time exchange rates.
+  - Dynamically converts expenses between different currencies.
+
 ---
 
-## 📂 Структура проєкту
+## 📂 Project Structure
 
-```
+```text
 System.Self/
 ├── index.html
 ├── habits.html
@@ -39,8 +39,8 @@ System.Self/
 │   ├── todo.css
 │   ├── habits.css
 │   ├── expenses.css
-│   ├── schedule.js
-│   ├── global.js
+│   ├── schedule.css
+│   └── global.css
 ├── js/
 │   ├── main.js
 │   ├── todo.js
@@ -48,5 +48,5 @@ System.Self/
 │   ├── expenses.js
 │   ├── calendar.js
 │   ├── page-init.js
-│   ├── storage.js
+│   └── storage.js
 ```
